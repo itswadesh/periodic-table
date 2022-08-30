@@ -5,7 +5,7 @@
   import '../app.css'
 </script>
 
-<GitHubCorner href="https://github.com/janosh/periodic-table" />
+<!-- <GitHubCorner href="https://github.com/janosh/periodic-table" /> -->
 {#if $page.url.pathname !== `/`}
   <a href="/" class="back" sveltekit:prefetch>&laquo; back</a>
   <main>
